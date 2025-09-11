@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <!-- GitHub Pages対応: metaリフレッシュで即リダイレクト -->
+  <meta http-equiv="refresh" content="0; url=https://example.com/B">
+
+  <script>
+    // JavaScriptによるフォールバック
+    window.onload = function() {
+      window.location.replace("https://example.com/B");
+    };
+  </script>
+</head>
+<body>
+  <h1>ページを移動しています...</h1>
+  <p>自動的にページが切り替わらない場合は、
+    <a href="https://example.com/B">こちらをクリック</a>してください。</p>
+</body>
+</html>
